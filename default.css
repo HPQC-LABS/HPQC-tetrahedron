@@ -3,7 +3,7 @@
 	{
 		height: 100%;
 	}
-	
+
 	body
 	{
 		margin: 0px;
@@ -15,8 +15,8 @@
 		color: #656565;
 	}
 
-	
-	
+
+
 	h1, h2, h3
 	{
 		margin: 0;
@@ -24,27 +24,27 @@
 		font-weight: 700;
 		color: #2B3F48;
 	}
-	
+
 	p, ol, ul
 	{
 		margin-top: 0;
 	}
-	
+
 	ol, ul
 	{
 		padding: 0;
 		list-style: none;
 	}
-	
+
 	ul.actions
 	{
 		text-align: center;
 	}
-		
+
 		ul.actions li
 		{
 		}
-	
+
 	p
 	{
 		line-height: 180%;
@@ -54,12 +54,12 @@
 	{
 		color: #0000FF;
 	}
-	
+
 	a:hover
 	{
 		text-decoration: none;
 	}
-	
+
 	.container
 	{
 		overflow: hidden;
@@ -83,7 +83,7 @@
 		font-size: 1em;
 		color: #FFF;
 	}
-	
+
 	.button:before
 	{
 		display: inline-block;
@@ -96,24 +96,24 @@
 		text-align: center;
 		color: #272925;
 	}
-	
+
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
 	.title
 	{
-		
+
 		margin-bottom: 3em;
 	}
-	
+
 	.title h2
 	{
 		padding: 30px;
 
 		font-size: 2.1em;
 	}
-	
+
 	.title .byline
 	{
 		padding: 30px;
@@ -130,7 +130,7 @@
 
 
 	/*Changes to titles / headers given a smaller screen*/
-	@media screen and (min-width: 560px) 
+	@media screen and (min-width: 560px)
 	{
 
 		.title h2
@@ -147,7 +147,7 @@
 
 		}
 	}
-		
+
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -176,7 +176,7 @@
 		padding-top: 0px;
 		float: left;
 		position:relative;
-	
+
 	}
 	/*Specific formatting for the logo + text combo on the LHS*/
 		#menu .logoTxt
@@ -204,7 +204,7 @@
 		}
 
 	/*Setting the toggle button to hidden when in desktop mode*/
-	#menu .navbar-toggle 
+	#menu .navbar-toggle
 	{
 		display: none;
 	}
@@ -227,7 +227,7 @@
 			padding: 10px;
 
 		}
-		
+
 		#menu .main-nav li a:hover, .dropmenu:hover .dropbtn
 		{
 			color:rgb(0, 0, 0);
@@ -238,7 +238,7 @@
 		#menu .main-nav li.dropmenu
 		{
 			display: inline-block;
-			
+
 		}
 		#menu .main-nav .dropmenu:hover .content
 		{
@@ -255,7 +255,7 @@
 			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 			z-index: 1;
 		}
-		
+
 		#menu .main-nav .content a
 		{
 			color: #2B3F48;
@@ -270,7 +270,7 @@
 			background-color: rgb(221, 221, 221);
 		}
 
-	
+
 
 	/*Formatting for the current page selector*/
 		#menu .main-nav .current_page_item a:hover
@@ -299,14 +299,14 @@
 /* Mobile / Smaller Screen Devices */
 @media screen and (max-width: 890px) {
 
-	
+
 	#menu
 	{
 		display: block;
 		background-color: #FFF;
 		text-align: center;
 		padding-top: 25px;
-	}	
+	}
 
 	#menu .logoTxt
 	{
@@ -368,7 +368,7 @@
 		padding: 5px;
 
 	}
-	
+
 	#menu .main-nav li a:hover, .dropmenu:hover .dropbtn
 	{
 		color:rgb(0, 0, 0);
@@ -380,7 +380,7 @@
 	#menu .main-nav li.dropmenu
 	{
 		display: inline-block;
-		
+
 	}
 
 	#menu .main-nav .content
@@ -393,7 +393,7 @@
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
 	}
-	
+
 	#menu .main-nav .content a
 	{
 		color: #2B3F48;
@@ -434,10 +434,10 @@
 		z-index: 100;
 	}
 
-	
+
 	/*Basic settings for navbar toggle button*/
 	#navbar-toggle{
-		
+
 		width: 30px;
 		height: 20px;
 		-webkit-transform: rotate(0deg);
@@ -451,16 +451,16 @@
 		cursor: pointer;
 		padding: 20px;
 		transform: translateY(-20px);
-		
+
 	}
 
 
-}	
+}
 
 
 /*Additional formatting for small screen size (But not mobile)*/
 @media screen and (max-width: 530px) {
-		
+
 	#menu .logoTxt
 	{
 		margin-top: 50px;
@@ -471,7 +471,7 @@
 	#menu .logoImg
 	{
 		margin-left: 5px;
-		transform: translateY(0.25vw); 
+		transform: translateY(0.25vw);
 		width: 100px;
 		position: relative;
 	}
@@ -480,13 +480,13 @@
 	{
 		margin-top: 20px;
 		transform: translateY(-10px);
-		position: relative; 
+		position: relative;
 		font-size: 22px;
 		font-weight: 700;
 		text-decoration: none;
 		color: #79C255;
 		text-align: left;
-		margin-bottom: -20px;	
+		margin-bottom: -20px;
 	}
 
 	/*Enabling navbar button for smaller screens*/
@@ -506,7 +506,7 @@
 		padding: 20px;
 		transform: translateY(-20px);
 	}
-	
+
 }
 
 
@@ -776,7 +776,7 @@
 	}
 
 	.unsubTitle{
-		
+
 		font-size: 28px;
 		width: 100%;
 		color: white;
@@ -811,7 +811,7 @@
 	}
 
 	.close{
-		
+
 		color: #fff;
 		float: right;
 		font-size: 34px;
@@ -823,7 +823,7 @@
 	}
 
 	.close:hover{
-		
+
 		cursor: pointer;
 		transform: rotate(45deg) translate(-2.5px, -2.5px);
 	}
@@ -849,7 +849,7 @@
 		font-size: 24px;
 
 	}
-	
+
 	.inputContainer{
 
 		padding: 20px;
@@ -881,9 +881,9 @@
 
 	@media screen and (max-width: 890px) {
 		.unsubPopup{
-			width: 100%; 
+			width: 100%;
 			font-size: 12px;
-	
+
 		}
 
 		.unsubTitle{
@@ -891,21 +891,21 @@
 		}
 
 		.close{
-		
+
 			color: #fff;
 			float: center;
 			font-size: 34px;
 			font-weight: bold;
 			transition: ease-in-out 0.3s;
 			transform: translate(-10px, -8px);
-		
+
 		}
 
 		.endScreen{
 
-			width: 100%; 
+			width: 100%;
 			font-size: 14px;
-		
+
 		}
 
 		.endScreenHeader .close{
@@ -1001,7 +1001,7 @@
 {
 	float: right;
 }
-/*	
+/*
 #wrapper
 {
 	background: #FFF;
@@ -1040,7 +1040,7 @@
 }
 */
 
-	
+
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
@@ -1109,7 +1109,7 @@ ul.staff li img
 .error404 h1{
 	font-size: 48px;
 	color: white;
-	
+
 }
 
 .error404 h3{
@@ -1185,7 +1185,7 @@ ul.staff li img
 
 
 /*Changes to titles / headers given a smaller screen*/
-@media screen and (min-width: 560px) 
+@media screen and (min-width: 560px)
 {
 
 	.error404 h2
@@ -1204,7 +1204,7 @@ ul.staff li img
 	}
 
 }
-	
+
 
 /*********************************************************************************/
 /* Social Icon Styles                                                            */

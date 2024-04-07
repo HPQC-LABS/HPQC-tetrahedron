@@ -5,12 +5,134 @@
 }
 table, th, td {
     border:1px solid black;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
     font-family: 'lmmath';
     src: url('lmmath-regular.otf') format('opentype');
 }
+
+/* .container {
+  display: block;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+} */
+
+/* ---------------------------------------- */
+/* Hide default radio button */
+  input[type="radio"] {
+    display: none;
+  }
+
+  /* Style for custom button */
+  .custom-radio-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: #007bff; /* Change the background color as per your design */
+    color: #fff; /* Change the text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    width: 10rem;
+    height: 2rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .custom-radio-button:hover {
+    background-color: aquamarine;
+  }
+
+  /* Style for radio button label */
+  .custom-radio-button label {
+    display: block;
+    cursor: pointer;
+    /* padding: 10px 20px; */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Change button style when checked */
+ input[type="radio"]:checked + label {
+    /* padding: 10px 20px; */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b30000; /* Change the background color when checked */
+}
+
+/* .custom-radio-button.clicked {
+    background-color: aliceblue;
+} */
+  /* ------------------------------------- */
+
+
+/* Hide the browser's default checkbox */
+/* .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* On mouse-over, add a grey background color */
+/* .container:hover {
+  background-color: #ccc;
+} */
+
+/* .choose {
+    position: relative;
+    color: #fff;
+    background-color: #aaa;
+    font-size: 26px;
+    text-align: center;
+    /* height: 150px; */
+    /* line-height: 150px; */
+    /* display: block;
+    cursor: pointer;
+    border: 3px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+/* input{
+        display: none;
+} */
+
+/* input:checked + label{
+  border: 3px solid #333;
+  background-color: #2fcc71;
+} */
+
+
 
 .len_label {
     font-family: 'lmmath', sans-serif;
