@@ -7,11 +7,19 @@ table, th, td {
     border:1px solid black;
     padding: 0;
     margin: 0;
+    color: black
 }
 
 @font-face {
     font-family: 'lmmath';
     src: url('lmmath-regular.otf') format('opentype');
+}
+
+.wrapping {
+    background-color: white;
+    border: 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* .container {
@@ -39,15 +47,16 @@ table, th, td {
   .custom-radio-button {
     display: inline-block;
     /* padding: 10px 20px; */
-    background-color: #007bff; /* Change the background color as per your design */
+    background-color: #79C255;
+    /*#007bff; /* Change the background color as per your design */
     color: #fff; /* Change the text color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     outline: none;
     transition: background-color 0.3s ease;
-    width: 10rem;
-    height: 2rem;
+    width: 80%;
+    height: 70%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -55,7 +64,7 @@ table, th, td {
   }
 
   .custom-radio-button:hover {
-    background-color: aquamarine;
+    background-color: #66a846;
   }
 
   /* Style for radio button label */
@@ -84,7 +93,8 @@ table, th, td {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b30000; /* Change the background color when checked */
+    background-color: #4e922b;
+    /*#b30000; /* Change the background color when checked */
 }
 
 /* .custom-radio-button.clicked {
